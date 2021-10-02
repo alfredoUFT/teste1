@@ -8,3 +8,5 @@ nick = input("--> Como deseja ser chamado: ")
 print(f"\n##\nNome[{name}]  |  Idade[{age}]  |  Apelido[{nick}]\n##\n")
 
 print("  Seja bem vindo,", nick,"!!")
+
+input("  [ Pressione 'enter' para continuar ] ... ")
