@@ -1,6 +1,10 @@
 #cd onedrive/área de trabalho/random
-print("Hello World!")
+print("\n  Bem vindo!\n\n  Favor responder as perguntas abaixo.\n")
 
-x = input("\ndigite sua idade"*100)
+name = input("--> Informe seu nome: ")
+age = int(input("--> Informe sua idade: "))
+nick = input("--> Como deseja ser chamado: ")
 
-print(x)
+print(f"\n##\nNome[{name}]  |  Idade[{age}]  |  Apelido[{nick}]\n##\n")
+
+print("  Seja bem vindo,", nick,"!!")
